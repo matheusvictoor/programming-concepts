@@ -26,8 +26,6 @@ Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em c
 - Banco de Dados
 - Outras tecnologias e conceitos
 
-entre outros...
-
 ## Licença
 
 Este repositório está licenciado como MIT, o que significa que é livre para usar, copiar, modificar e redistribuir. Mais detalhes estão disponíveis no arquivo LICENSE
