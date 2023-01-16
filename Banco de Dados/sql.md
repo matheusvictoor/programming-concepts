@@ -9,7 +9,7 @@ SQL é a linguagem utilizada para gerenciar e manipular dados em bancos de dados
 
 - `UPDATE`: Utilizado para atualizar dados em uma tabela. Por exemplo, "UPDATE Customers SET email='newemail@example.com' WHERE name='Matheus Victor'" mudaria o email para 'newemail@example.com' na linha da tabela Customers onde o nome é 'Matheus Victor'.
 
-- `DELETE`: Utilizado para excluir dados de uma tabela. Por exemplo, "DELETE FROM Customers WHERE name='John DoeMatheus Victor'" excluiria a linha da tabela Customers onde o nome é 'Matheus Victor'.
+- `DELETE`: Utilizado para excluir dados de uma tabela. Por exemplo, "DELETE FROM Customers WHERE name='Matheus Victor'" excluiria a linha da tabela Customers onde o nome é 'Matheus Victor'.
 
 - `CREATE`: Utilizado para criar tabelas, índices, procedimentos armazenados, gatilhos e outros objetos do banco de dados.
 
