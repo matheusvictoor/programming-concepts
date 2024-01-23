@@ -10,7 +10,7 @@ A configuração do SSH para usar com o git pode ser um pouco complexa, mas é u
 
    - Abrir o terminal ou prompt de comando: Primeiro, você precisará abrir o terminal ou prompt de comando em seu computador. Isso pode ser feito pressionando as teclas Windows + R e digitando "cmd" ou "powershell" no Windows ou abrindo o terminal no Linux ou MacOS.
 
-   - Gerar a chave: Em seguida, você pode gerar sua chave SSH usando o comando ssh-keygen. Isso irá iniciar o processo de geração da chave, e você será solicitado a escolher um local para salvar a chave e fornecer uma senha para protegê-la.
+   - Gerar a chave: Em seguida, você pode gerar sua chave SSH usando o comando **`ssh-keygen`**. Isso irá iniciar o processo de geração da chave, e você será solicitado a escolher um local para salvar a chave e fornecer uma senha para protegê-la.
 
    - Forneça o caminho: Quando solicitado, você deve fornecer o caminho onde você deseja salvar a chave, ou pressionar enter para salvar no local padrão.
 
@@ -26,16 +26,16 @@ A configuração do SSH para usar com o git pode ser um pouco complexa, mas é u
 
 - Acesse o GitHub: Primeiro, você precisará acessar o GitHub e fazer login na sua conta.
 
-- Acesse as configurações: Em seguida, clique no seu avatar no canto superior direito e selecione "Settings" (ou Configurações).
+- Acesse as configurações: Em seguida, clique no seu avatar no canto superior direito e selecione **"Settings"** (ou Configurações).
 
-- Acesse as SSH e GPG keys: Na página de configurações, selecione "SSH and GPG keys" (ou Chaves SSH e GPG) no menu à esquerda.
+- Acesse as SSH e GPG keys: Na página de configurações, selecione **"SSH and GPG keys"** (ou Chaves SSH e GPG) no menu à esquerda.
 
 - Adicione uma nova chave: Clique no botão "New SSH key" (ou Nova chave SSH) e forneça um título para a chave e cole o conteúdo da chave pública gerada no passo anterior.
 
-- Adicione a chave: Clique em "Add SSH key" (ou Adicionar chave SSH) para adicionar a chave ao GitHub.
+- Adicione a chave: Clique em **"Add SSH key"** (ou Adicionar chave SSH) para adicionar a chave ao GitHub.
     
-**3** - Configurar o git para usar SSH: Depois de adicionar sua chave ao serviço de hospedagem, você precisará configurar o git para usar SSH em vez de HTTPS. Isso pode ser feito usando o comando git config --global url."git@github.com:".insteadOf "https://github.com/" (substituindo "github.com" pelo seu serviço de hospedagem).
+**3** - Configurar o git para usar SSH: Depois de adicionar sua chave ao serviço de hospedagem, você precisará configurar o git para usar SSH em vez de HTTPS. Isso pode ser feito usando o comando **`git config --global url."git@github.com:".insteadOf "https://github.com/"`** (substituindo "github.com" pelo seu serviço de hospedagem).
     
- **4** - Testando a conexão: Por fim, você pode testar sua conexão SSH com o git usando o comando ssh -T git@github.com (substituindo "github.com" pelo seu serviço de hospedagem). Se tudo estiver configurado corretamente, você deve ver uma mensagem de boas-vindas do serviço de hospedagem.
+ **4** - Testando a conexão: Por fim, você pode testar sua conexão SSH com o git usando o comando **`ssh -T git@github.com (substituindo "github.com"`** pelo seu serviço de hospedagem). Se tudo estiver configurado corretamente, você deve ver uma mensagem de boas-vindas do serviço de hos pedagem.
  
 **Espero ter te ajudado!**
