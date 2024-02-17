@@ -36,6 +36,6 @@ A configuração do SSH para usar com o git pode ser um pouco complexa, mas é u
     
 **3** - Configurar o git para usar SSH: Depois de adicionar sua chave ao serviço de hospedagem, você precisará configurar o git para usar SSH em vez de HTTPS. Isso pode ser feito usando o comando **`git config --global url."git@github.com:".insteadOf "https://github.com/"`** (substituindo "github.com" pelo seu serviço de hospedagem).
     
- **4** - Testando a conexão: Por fim, você pode testar sua conexão SSH com o git usando o comando **`ssh -T git@github.com (substituindo "github.com"`** pelo seu serviço de hospedagem). Se tudo estiver configurado corretamente, você deve ver uma mensagem de boas-vindas do serviço de hos pedagem.
+ **4** - Testando a conexão: Por fim, você pode testar sua conexão SSH com o git usando o comando **`ssh -T git@github.com`** (substituindo "github.com" pelo seu serviço de hospedagem). Se tudo estiver configurado corretamente, você deve ver uma mensagem de boas-vindas do serviço de hos pedagem.
  
 **Espero ter te ajudado!**
